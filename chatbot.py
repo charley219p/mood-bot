@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 from langchain_mistralai import ChatMistralAI
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage, BaseMessage
 load_dotenv()
-model = ChatMistralAI(model="mistral-small-latest" , temperature = 0.9)
+model = ChatMistralAI(model="mistral-small-latest", temperature = 0.9)
 
 print("According to your mood make a choice from below")
 print("choose 1 if want me to be funny\nchoose 2 if your mood is sad\nchoose 3 if your mood is angry")
