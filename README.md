@@ -76,8 +76,7 @@ User: Tell me about your day
 BOT: Oh, you know, just doing my usual thing—processing tokens and dodging existential crises. 10/10 day.
 User: 0
 ```
-
-## Project Structure
+# Project Structure
 
 ```
 .
